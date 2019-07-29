@@ -1,11 +1,4 @@
-@mixin h1($color) {
-    color: $color;
-}
-div div div img div{
-    @include h1(blue);
-    background-color: green;
-}
-
+//global 
 h1{
     font-size: 4em;
     color: white;
@@ -22,7 +15,7 @@ a:hover{
     font-weight: bold;
     text-decoration: underline;
 }
-
+//title colors
 .title-lightpurple{
     color:#613475;
 }
@@ -30,7 +23,7 @@ a:hover{
     color:#5f3574;
 }
 
-//button color
+//button colors
 .button-purp{
     background-color: #ac5fd1;
     color: white;
@@ -41,6 +34,7 @@ a:hover{
     color: white;
     border-radius: 0px;
 }
+
 //nav bar
 .nav-fixedtop{
     position:fixed;
@@ -48,10 +42,7 @@ a:hover{
     left: 0;
     z-index: 1030;
 }
-
 .bg-nav{
     background-color: white;
     border-bottom: 2px solid black;
-
 }
-

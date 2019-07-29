@@ -1,6 +1,7 @@
 import Home from '../index.html'
 
 import Styles from './scss/bootstrap.scss'
+import './scss/animate.scss'
 import './scss/global.scss'
 import './scss/s0_home.scss'
 import './scss/s2_computer.scss'
