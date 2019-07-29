@@ -1,0 +1,173 @@
+@import "~bootstrap/scss/bootstrap";
+
+//specific media queries
+
+@include media-breakpoint-up(xs) { 
+   //02_rockclimb
+    .pad-text{
+        padding:9em;
+    }
+    .img-rockclimb{
+        text-align: center;
+    }
+    //03_computer
+    #computer{
+        background: url(/src/images/banner-1.jpg) no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+    //04_smileygirl
+    #smileygirl{
+        background: url(/src/images/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+}
+@include media-breakpoint-up(sm) { 
+    //02_rockclimb
+    .pad-text{
+        padding:9em;
+    }
+    .img-rockclimb{
+        text-align: center;
+    }
+    //03_computer
+    #computer{
+        background: url(/src/images/banner-1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+    //04_smileygirl
+    #smileygirl{
+        background: url(/src/images/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+@include media-breakpoint-up(md) { 
+    //02_rockclimb
+    .pad-text{
+        padding:9em;
+    }
+    .img-rockclimb{
+        text-align: center;
+    }
+    //03_computer
+    #computer{
+        background: url(/src/images/banner-1.jpg) no-repeat;
+        background-size: cover;
+        height: 50vh;
+    }
+    //04_smileygirl
+    #smileygirl{
+        background: url(/src/images/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+  
+}
+@include media-breakpoint-up(lg) { 
+    //02_rockclimb
+    .pad-text{
+        padding:4em 2em 4em 0em;
+    }
+    .img-rockclimb{
+        text-align: right;
+    }
+    //03_computer
+    #computer{
+        background: url(/src/images/banner-1.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    //04_smileygirl
+    #smileygirl{
+        background: url(/src/images/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+@include media-breakpoint-up(xl) { 
+    //02_rockclimb
+    .pad-text{
+        padding:4em 2em 4em 0em;
+    }
+    .img-rockclimb{
+        text-align: right;
+    }
+    //03_computer
+     #computer{
+        background: url(/src/images/banner-1.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    //04_smileygirl
+    #smileygirl{
+        background: url(/src/images/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}
+//carousel 
+.carousel-control {
+  width: 3em;
+  .icon-prev, .icon-next, .glyphicon-chevron-left, .glyphicon-chevron-right {
+    margin: 0.2em;
+  }
+  .icon-prev, .glyphicon-chevron-left {
+    left: 0;
+  }
+  .icon-next, .glyphicon-chevron-right {
+    right: 0;
+  }
+}
+.carousel {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+}
+
+//carousel control style
+.carousel-control {
+  opacity: 1;
+  color: #ccc;
+  text-shadow: none;
+  &.left, &.right {
+    background-image: none;
+  }
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #999;
+}
+.carousel {
+  height: 380px;
+}
+
+//arrow color
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #5e3474;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #5e3474;
+}
+//indicators 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ffc718;
+  }
+

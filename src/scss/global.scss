@@ -1,0 +1,54 @@
+@mixin h1($color) {
+    color: $color;
+}
+div div div img div{
+    @include h1(blue);
+    background-color: green;
+}
+
+h1{
+    font-size: 4em;
+    color: white;
+}
+a{
+    color:#613475; 
+    font-weight: bold;
+}
+a:hover{
+    color:#613475; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.title-lightpurple{
+    color:#613475;
+}
+.title-darkpurple{
+    color:#5f3574;
+}
+
+//button color
+.button-purp{
+    background-color: #ac5fd1;
+    color: white;
+    border-radius: 0px;
+}
+.button-org{
+    background-color: #ff7218;
+    color: white;
+    border-radius: 0px;
+}
+//nav bar
+.nav-fixedtop{
+    position:fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.bg-nav{
+    background-color: white;
+    border-bottom: 2px solid black;
+
+}
+
